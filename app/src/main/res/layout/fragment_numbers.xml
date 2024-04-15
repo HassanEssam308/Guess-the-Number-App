@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NumbersFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guess The Number"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:layout_margin="10sp"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <ImageView
+                    android:id="@+id/NumFrag_IV_One"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="120sp"
+                  android:background="@drawable/one"
+                    android:layout_margin="10sp"
+                    />
+                <ImageView
+                    android:id="@+id/NumFrag_IV_Two"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="120sp"
+                    android:background="@drawable/two"
+                    android:layout_margin="10sp"
+
+                    />
+                <ImageView
+                    android:id="@+id/NumFrag_IV_Three"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="120sp"
+                    android:background="@drawable/three"
+                    android:layout_margin="10sp"
+
+                    />
+
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:id="@+id/NumFrag_IV_Four"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="120sp"
+                    android:background="@drawable/four"
+                    android:layout_margin="10sp"
+                    />
+                <ImageView
+                    android:id="@+id/NumFrag_IV_Five"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="120sp"
+                    android:background="@drawable/five"
+                    android:layout_margin="10sp"
+
+                    />
+                <ImageView
+                    android:id="@+id/NumFrag_IV_Six"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="120sp"
+                    android:background="@drawable/six"
+                    android:layout_margin="10sp"
+
+                    />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:id="@+id/NumFrag_IV_Seven"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="120sp"
+                    android:background="@drawable/seven"
+                    android:layout_margin="10sp"
+                    />
+                <ImageView
+                    android:id="@+id/NumFrag_IV_Eight"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="120sp"
+                    android:background="@drawable/eight"
+                    android:layout_margin="10sp"
+
+                    />
+                <ImageView
+                    android:id="@+id/NumFrag_IV_Nine"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="120sp"
+                    android:background="@drawable/nine"
+                    android:layout_margin="10sp"
+
+                    />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
